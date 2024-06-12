@@ -15,5 +15,6 @@ export default defineConfig({
         "src/server.ts",
       ],
     },
+    environmentMatchGlobs: [["src/http/controllers/**", "prisma"]],
   },
 });
